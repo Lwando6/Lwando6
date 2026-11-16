@@ -31,6 +31,7 @@ The artefacts below are based on the project files and dated repository commits.
 | [Product Backlog](./product-backlog.md) | 10% | 10% |
 | [Sprint Backlog](./sprint-backlog.md) | 10% | 10% |
 | [Agile Logbook](./agile-logbook.md) | 10% | 10% |
+| [Trello Evidence — Partial Use](./trello-evidence.md) | Supporting evidence register | — |
 | **Total** | **50%** | **50%** |
 
 ## Portfolio approach
