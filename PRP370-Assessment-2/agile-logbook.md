@@ -4,9 +4,9 @@
 
 ## 1. Purpose and evidence approach
 
-This logbook uses the dated Git commit history in the CareerCraft repository as a record of development activity. Commit dates and messages are verifiable. They can demonstrate that changes were recorded over time, but they do not automatically prove that a daily stand-up, sprint planning meeting, retrospective or user test took place.
+This assessment also draws on the existing **CareerCraft Agile Team Logbook, 1 June–30 September 2026** (version 1.0, dated 27 October 2026), which records four initiation weeks and 14 delivery sprints. That source distinguishes documented entries from reconstructed entries and evidence still to verify. Trello was used partially; the source logbook refers to some Trello/taskboard artefacts, but not every sprint has a complete Trello export attached.
 
-The entries below are therefore labelled **repository activity records**. Add actual planning, review and reflection notes where you have them. Do not convert a commit into a fictional meeting or claim a task was tested merely because code was committed.
+This page cross-references the source logbook with the dated CareerCraft GitHub commit history. Commit dates and messages demonstrate recorded code changes; they do not, by themselves, prove a daily stand-up, sprint ceremony, user test or acceptance result. Keep the source logbook's labels: **Documented**, **Reconstructed — confirm with project evidence**, and **To verify**. See the [Sprint Backlog](./sprint-backlog.md) for the 14-sprint index and evidence checklist.
 
 ## 2. Dated development records
 
@@ -113,3 +113,38 @@ Going forward, I should record the goal before each work session, the tasks sele
 
 ---
 [← Portfolio home](./)
+
+
+## 7. Project-level Agile logbook cross-reference
+
+The source CareerCraft Agile Team Logbook records four initiation weeks followed by 14 delivery sprints. It describes daily coordination, sprint planning, reviews, retrospectives, impediments and evidence fields. The detailed sprint periods, goals and source evidence status are indexed in the [Sprint Backlog](./sprint-backlog.md).
+
+### Source logbook evidence status
+
+| Source classification | Meaning | How it is treated in this portfolio |
+|---|---|---|
+| Documented | Taken from supplied daily stand-ups, taskboards and sprint walkthroughs. | Retain the original record and attach the referenced evidence where available. |
+| Reconstructed | Created from milestone continuity and detailed sprint history. | Confirm wording, owners, dates and evidence with the team before final submission. |
+| To verify | An evidence type is identified but the file/link is not embedded. | Add the actual artefact or leave the evidence item clearly outstanding. |
+
+### Trello usage
+
+Trello was used partially. The source logbook references a Trello export and ownership record for the 22 July Sprint 4 backlog-refinement activity. The actual export is not embedded in the source logbook available for this portfolio, so it is listed as an outstanding evidence item rather than claimed as attached.
+
+See [Trello Evidence — Partial Use](./trello-evidence.md) for the evidence register and upload checklist.
+
+### Team and project context
+
+The source logbook identifies:
+- Lwandile Mangali — Product Owner and Project Manager.
+- Sello Makhunyane — Lead Developer and Technical Coordinator.
+- Livhuwani Madavha — UX/UI Designer and Front-end Developer.
+- Lerato Motsweni — Business Analyst and Quality Assurance Lead.
+
+These roles are reproduced from the source logbook. Confirm them with the team before final submission.
+
+### Reflection note
+
+The project logbook and source-code history provide complementary views. The Agile logbook describes planning, collaboration, review and retrospective activity; Git commits provide a separate record of code changes. Connecting the two makes the development process easier to trace, but a code commit should not be treated as proof that a sprint ceremony or user test happened.
+
+**Before submission:** add personal details about your actual Trello use, what was recorded elsewhere, a real blocker and what you learned from the team's planning and review process.
