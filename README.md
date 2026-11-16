@@ -17,6 +17,8 @@
 
 This section provides access to my individual PRP370 Assessment 2 portfolio. It contains the Agile artefacts, supporting evidence and reflections required by the assessment rubric.
 
+**Selected project:** CareerCraft SA — a South Africa-first career platform. [View the CareerCraft source repository](https://github.com/Lwando6/CareerCraft) and [development history](https://github.com/Lwando6/CareerCraft/commits/main).
+
 **[Open the PRP370 Assessment 2 Portfolio](./PRP370-Assessment-2/)**
 
 The portfolio is organised around the five assessment areas:
