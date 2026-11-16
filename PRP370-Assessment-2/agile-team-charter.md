@@ -43,7 +43,7 @@ These capabilities are supported by repository files and commit messages. A code
 - Authentication, payment and subscription decisions require appropriate server-side checks and access controls.
 - Time, technical complexity, integration dependencies and available resources influence the order in which work can be delivered.
 
-## 4. Individual working agreements
+## 4. Team working agreements
 
 The supplied CareerCraft Agile Team Charter records shared responsibilities, communication practices, working agreements, a definition of ready/done and risk responses. The principles below summarise those source artefacts. Confirm that the team still agrees with them before treating this page as the approved current charter.
 
@@ -61,7 +61,7 @@ The supplied CareerCraft Agile Team Charter records shared responsibilities, com
 
 The source Agile Team Charter assigns the following primary roles. These are team responsibilities, not claims that every member completed every task. Confirm the names and role assignments with the team before approval.
 
-| Responsibility | My contribution |
+| Team member / primary role | Responsibility recorded in the source charter |
 |---|---|
 | Lwandile Mangali — Product Owner and Project Manager | Own product vision and backlog; prioritise user value; coordinate sprints; approve increments; manage stakeholders and project risks. |
 | Sello Makhunyane — Lead Developer and Technical Coordinator | Guide technical implementation; integrate front-end and back-end work; review code; support deployment, security and defect resolution. |
