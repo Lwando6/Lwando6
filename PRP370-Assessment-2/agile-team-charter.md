@@ -1,60 +1,115 @@
-# Agile Team Charter
+# Agile Team Charter — CareerCraft
 
 [← Back to PRP370 Assessment 2](./)
 
-## 1. Purpose and project context
+## 1. Project identity
 
-**Project/product name:** [TO ADD]  
-**Problem or opportunity addressed:** [TO ADD]  
-**Intended users or stakeholders:** [TO ADD]  
-**My role and responsibilities:** [TO ADD]
+| Item | Description |
+|---|---|
+| Product | CareerCraft SA |
+| Product type | South Africa-first digital career development platform |
+| Project owner / individual developer | Lwandile Mangali |
+| Assessment | PRP370 — Project Presentation 3, Assessment 2 |
+| Repository | [Lwando6/CareerCraft](https://github.com/Lwando6/CareerCraft) |
+| Live application | [careercraft-sa.netlify.app](https://careercraft-sa.netlify.app) |
+| Evidence source | [CareerCraft commit history](https://github.com/Lwando6/CareerCraft/commits/main) |
 
-An Agile team charter describes the purpose, values, working agreements and operational boundaries that guide how work is approached. For this individual assessment, explain the project context and the practical working principles that guided your own contribution. If the project involved other people, distinguish agreed team practices from your individual responsibilities.
+## 2. Product purpose and vision
 
-## 2. Charter
+CareerCraft aims to help students and graduates maintain reusable career information and turn it into career documents and professional content. The repository describes the product as a South Africa-first platform for creating recruiter-ready CVs, portfolios, LinkedIn content and application documents.
 
-| Charter element | My documented approach | Supporting source/evidence |
+The project responds to a practical problem: early-career job seekers often need to prepare and update several career materials for different opportunities. CareerCraft brings related workflows into one platform, including profile information, CV creation, GitHub project selection and AI-assisted career content.
+
+## 3. Scope
+
+### Product capabilities evidenced in the repository
+
+- Account registration, authentication and user profiles.
+- Modular CV creation, saved CVs and resume template selection.
+- GitHub project selection for CV/portfolio content.
+- AI-assisted LinkedIn profile and post tools.
+- Career prompt and document-generation workflows.
+- Membership and subscription access-control implementation.
+- Personal branding guidance.
+
+These capabilities are supported by repository files and commit messages. A code commit demonstrates that a change was recorded; it does not, by itself, prove that every user journey is fully tested or operating correctly in production.
+
+### Boundaries and constraints
+
+- The assessment is an individual assessment. This charter documents my individual project practices and responsibilities; it does not claim that a team co-created or approved the charter.
+- CareerCraft is an evolving product. Features must be labelled accurately as implemented, in progress or planned.
+- AI-generated career content must be reviewed by the user and must not invent qualifications, work experience or achievements.
+- Secrets and API credentials must not be committed to the public repository.
+- Authentication, payment and subscription decisions require appropriate server-side checks and access controls.
+- Time, technical complexity, integration dependencies and available resources influence the order in which work can be delivered.
+
+## 4. Individual working agreements
+
+The following are the working principles I use as the proposed charter for managing this individual project. They are documented here as project rules; they should not be mistaken for evidence of formal team agreements.
+
+| Principle | Working agreement | How I can demonstrate it |
 |---|---|---|
-| Purpose and shared goal | [TO ADD: what the project aimed to achieve] | [TO ADD] |
-| Values | [TO ADD: e.g. transparency, respect, quality — only if genuinely adopted] | [TO ADD] |
-| Roles and responsibilities | [TO ADD: identify actual roles and your own role] | [TO ADD] |
-| Communication | [TO ADD: actual channels and frequency] | [TO ADD] |
-| Working agreements | [TO ADD: actual agreements about planning, updates and collaboration] | [TO ADD] |
-| Decision-making | [TO ADD: how decisions were made] | [TO ADD] |
-| Definition of done | [TO ADD: conditions used to consider work complete] | [TO ADD] |
-| Constraints and boundaries | [TO ADD: scope, time, tools or other constraints] | [TO ADD] |
+| User value | Prioritise features that solve a clear career-preparation problem. | Link backlog items to user needs. |
+| Incremental delivery | Break large features into smaller changes that can be reviewed. | Git commits and version history. |
+| Transparency | Record what is implemented, in progress and planned. | Backlog status and dated logbook. |
+| Quality | Check user journeys, errors and edge cases before treating work as complete. | Test notes, screenshots and issue records. |
+| Security and privacy | Keep secrets out of source control and protect user data. | Configuration, server-side functions and security review. |
+| Accuracy | AI-generated CV and LinkedIn content must remain grounded in user-provided facts. | Prompt rules and manual review. |
+| Continuous improvement | Use defects and feedback to guide the next changes. | Bug-fix commits and retrospective notes. |
 
-## 3. Evidence — 10%
+## 5. Roles and responsibilities
 
-Add authentic artefacts that demonstrate how the charter was created, communicated or used. Suitable evidence may include a dated charter document, a screenshot of an agreed working agreement, a planning discussion, a role allocation record or a version-history entry.
+As this is an individual assessment and the available repository history identifies my GitHub account as the committer, this portfolio records my own development contribution. The repository history supports that code changes were committed under my GitHub account; it does not establish that I performed every non-code activity or that no external tools or assistance were used.
 
-### Evidence register
+| Responsibility | My contribution |
+|---|---|
+| Product direction | Define and refine the platform's intended user value and feature scope. |
+| Interface and user journey | Develop and revise the platform pages and workflows. |
+| Application development | Implement front-end pages, JavaScript and integration code. |
+| Integration | Work with Supabase, AI provider functions, GitHub API and payment-related flows. |
+| Version control | Record changes in the CareerCraft Git repository. |
+| Quality and reflection | Review behaviour, document limitations and identify improvements. |
 
-| ID | Artefact | Date | What it demonstrates | File/link |
-|---|---|---|---|---|
-| ATC-01 | [TO ADD] | [DATE] | [TO EXPLAIN] | [LINK TO evidence FILE] |
-| ATC-02 | [TO ADD] | [DATE] | [TO EXPLAIN] | [LINK TO evidence FILE] |
+## 6. Definition of done
 
-**Evidence files:** [Add files to the evidence folder and link them here.]
+A backlog item should not be labelled complete solely because a page or code file exists. Before calling a feature done, I should verify that:
 
-## 4. Reflection — 10%
+1. The intended user need and acceptance criteria are addressed.
+2. The relevant workflow functions in the intended environment.
+3. Expected and invalid inputs are handled appropriately.
+4. Authentication, access control and privacy implications have been considered.
+5. The change does not knowingly break related journeys.
+6. Relevant evidence, test notes or a commit link is recorded.
+7. Known limitations are documented honestly.
 
-Write this reflection in your own words, using the evidence above. Address each prompt in a connected discussion:
+## 7. Evidence — 10%
 
-1. Why was a charter useful for this project?
-2. Which values or working agreements had the greatest effect on the way you approached the work? Give a specific example.
-3. How clear were the roles, responsibilities and boundaries?
-4. What challenge or misunderstanding did the charter help prevent, or what gap did you notice?
-5. What would you change in a future charter, and why?
+The following repository artefacts provide initial evidence of project scope and individual development activity.
 
-**My reflection:**  
-[TO WRITE: Refer to specific charter decisions and evidence. Explain what happened, what you learned and what you would improve. Avoid generic statements that are not supported by your experience.]
+| Evidence ID | Artefact | What it supports |
+|---|---|---|
+| ATC-01 | [CareerCraft README](https://github.com/Lwando6/CareerCraft/blob/main/README.md) | Product purpose, core capabilities, technology and project structure. |
+| ATC-02 | [Initial project commit](https://github.com/Lwando6/CareerCraft/commit/4528a411b97ea62db31ebd793fc8ca4cb1a427fb) | Initial repository setup. |
+| ATC-03 | [Supabase authentication changes](https://github.com/Lwando6/CareerCraft/commit/5afc69b7cf0311729d714b5f0ae70706cfb96a41) | Authentication-related implementation activity. |
+| ATC-04 | [CareerCraft project history](https://github.com/Lwando6/CareerCraft/commits/main) | Dated record of incremental changes. |
 
-## 5. Connection to the other Agile artefacts
+**Additional evidence to add:** a screenshot or export of the product's current user journey, a project planning artefact, and any actual working notes used to guide the work.
 
-Explain how the project purpose and working agreements informed the user stories, prioritisation, sprint planning and logbook entries.
+## 8. Reflection — 10%
 
-[TO ADD: Explain the actual connection between your charter and the other artefacts.]
+### Reflection draft for personal review
+
+CareerCraft has required me to think beyond building individual web pages and consider how separate features contribute to one coherent product. The repository history shows development across authentication, CV creation, GitHub portfolio integration, AI-assisted LinkedIn tools and subscription access. This demonstrates that the product scope expanded through a sequence of changes rather than being delivered as one isolated feature.
+
+One important lesson from this project is the need to balance feature development with reliability and user trust. For a career platform, inaccurate AI-generated information could negatively affect a job seeker's application. Authentication, privacy, subscription enforcement and server-side verification are also important because the platform handles user information and paid access.
+
+The Git history gives me a useful record of implementation activity, but I recognise that a commit alone is not proof of a fully tested feature. My working definition of done therefore needs to include acceptance criteria, testing and evidence of the user journey, not only code changes.
+
+**Before submission:** revise this draft so it accurately describes your own decisions, challenges and learning. Add a specific example of a feature you personally tested, a problem you encountered and how you responded.
+
+## 9. Connection to other artefacts
+
+The product purpose informs the user stories. The user stories are grouped and prioritised in the Product Backlog. Selected work should then be planned as a Sprint Backlog with a sprint goal and measurable tasks. The Agile Logbook records dated progress and learning, while the evidence register links claims to actual artefacts.
 
 ---
 [← Portfolio home](./)
