@@ -8,7 +8,7 @@
 |---|---|
 | Product | CareerCraft SA |
 | Product type | South Africa-first digital career development platform |
-| Project owner / individual developer | Lwandile Mangali |
+| Project team | Lwandile Mangali, Sello Makhunyane, Livhuwani Madhavha (spelling to confirm against logbook) and Lerato Motsweni |
 | Assessment | PRP370 — Project Presentation 3, Assessment 2 |
 | Repository | [Lwando6/CareerCraft](https://github.com/Lwando6/CareerCraft) |
 | Live application | [careercraft-sa.netlify.app](https://careercraft-sa.netlify.app) |
@@ -36,7 +36,7 @@ These capabilities are supported by repository files and commit messages. A code
 
 ### Boundaries and constraints
 
-- The assessment is an individual assessment. This charter documents my individual project practices and responsibilities; it does not claim that a team co-created or approved the charter.
+- CareerCraft was developed as a team project. The supplied CareerCraft Agile Team Charter identifies four team members and assigns primary roles. The team charter source uses the spelling “Livhuwani Madhavha”, while the separate team logbook uses “Livhuwani Madavha”; confirm the correct spelling with the team before final submission.
 - CareerCraft is an evolving product. Features must be labelled accurately as implemented, in progress or planned.
 - AI-generated career content must be reviewed by the user and must not invent qualifications, work experience or achievements.
 - Secrets and API credentials must not be committed to the public repository.
@@ -45,7 +45,7 @@ These capabilities are supported by repository files and commit messages. A code
 
 ## 4. Individual working agreements
 
-The following are the working principles I use as the proposed charter for managing this individual project. They are documented here as project rules; they should not be mistaken for evidence of formal team agreements.
+The supplied CareerCraft Agile Team Charter records shared responsibilities, communication practices, working agreements, a definition of ready/done and risk responses. The principles below summarise those source artefacts. Confirm that the team still agrees with them before treating this page as the approved current charter.
 
 | Principle | Working agreement | How I can demonstrate it |
 |---|---|---|
@@ -59,16 +59,14 @@ The following are the working principles I use as the proposed charter for manag
 
 ## 5. Roles and responsibilities
 
-As this is an individual assessment and the available repository history identifies my GitHub account as the committer, this portfolio records my own development contribution. The repository history supports that code changes were committed under my GitHub account; it does not establish that I performed every non-code activity or that no external tools or assistance were used.
+The source Agile Team Charter assigns the following primary roles. These are team responsibilities, not claims that every member completed every task. Confirm the names and role assignments with the team before approval.
 
 | Responsibility | My contribution |
 |---|---|
-| Product direction | Define and refine the platform's intended user value and feature scope. |
-| Interface and user journey | Develop and revise the platform pages and workflows. |
-| Application development | Implement front-end pages, JavaScript and integration code. |
-| Integration | Work with Supabase, AI provider functions, GitHub API and payment-related flows. |
-| Version control | Record changes in the CareerCraft Git repository. |
-| Quality and reflection | Review behaviour, document limitations and identify improvements. |
+| Lwandile Mangali — Product Owner and Project Manager | Own product vision and backlog; prioritise user value; coordinate sprints; approve increments; manage stakeholders and project risks. |
+| Sello Makhunyane — Lead Developer and Technical Coordinator | Guide technical implementation; integrate front-end and back-end work; review code; support deployment, security and defect resolution. |
+| Livhuwani Madhavha — UX/UI Designer and Front-end Developer | Map user journeys; create accessible interfaces; maintain visual consistency; implement responsive components and usability improvements. |
+| Lerato Motsweni — Business Analyst and Quality Assurance Lead | Refine requirements and acceptance criteria; maintain traceability; coordinate testing; document defects, evidence and review outcomes. |
 
 ## 6. Definition of done
 
@@ -88,10 +86,11 @@ The following repository artefacts provide initial evidence of project scope and
 
 | Evidence ID | Artefact | What it supports |
 |---|---|---|
-| ATC-01 | [CareerCraft README](https://github.com/Lwando6/CareerCraft/blob/main/README.md) | Product purpose, core capabilities, technology and project structure. |
-| ATC-02 | [Initial project commit](https://github.com/Lwando6/CareerCraft/commit/4528a411b97ea62db31ebd793fc8ca4cb1a427fb) | Initial repository setup. |
-| ATC-03 | [Supabase authentication changes](https://github.com/Lwando6/CareerCraft/commit/5afc69b7cf0311729d714b5f0ae70706cfb96a41) | Authentication-related implementation activity. |
-| ATC-04 | [CareerCraft project history](https://github.com/Lwando6/CareerCraft/commits/main) | Dated record of incremental changes. |
+| ATC-01 | Supplied CareerCraft Agile Team Charter (2026) | Team purpose, vision, success definition, scope boundaries, role allocation, shared responsibilities, risk management and approval section. Upload the original PDF/DOCX to the evidence folder. |
+| ATC-02 | [CareerCraft README](https://github.com/Lwando6/CareerCraft/blob/main/README.md) | Product purpose, core capabilities, technology and project structure. |
+| ATC-03 | [Initial project commit](https://github.com/Lwando6/CareerCraft/commit/4528a411b97ea62db31ebd793fc8ca4cb1a427fb) | Initial repository setup. |
+| ATC-04 | [Supabase authentication changes](https://github.com/Lwando6/CareerCraft/commit/5afc69b7cf0311729d714b5f0ae70706cfb96a41) | Authentication-related implementation activity. |
+| ATC-05 | [CareerCraft project history](https://github.com/Lwando6/CareerCraft/commits/main) | Dated record of incremental changes. |
 
 **Additional evidence to add:** a screenshot or export of the product's current user journey, a project planning artefact, and any actual working notes used to guide the work.
 
