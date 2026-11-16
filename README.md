@@ -10,6 +10,25 @@
   <img src="https://img.shields.io/badge/GitHub-Pages-lightgrey?style=for-the-badge&logo=github" />
 </p>
 
+
+---
+
+# 📚 PRP370 Assessment 2 — Agile Portfolio of Evidence
+
+This section provides access to my individual PRP370 Assessment 2 portfolio. It contains the Agile artefacts, supporting evidence and reflections required by the assessment rubric.
+
+**[Open the PRP370 Assessment 2 Portfolio](./PRP370-Assessment-2/)**
+
+The portfolio is organised around the five assessment areas:
+
+1. [Agile Team Charter](./PRP370-Assessment-2/agile-team-charter.md)
+2. [User Stories and Tasks](./PRP370-Assessment-2/user-stories-and-tasks.md)
+3. [Product Backlog](./PRP370-Assessment-2/product-backlog.md)
+4. [Sprint Backlog](./PRP370-Assessment-2/sprint-backlog.md)
+5. [Agile Logbook](./PRP370-Assessment-2/agile-logbook.md)
+
+Each area includes an evidence section and a reflection section, giving ten rubric components in total. Evidence that still needs to be added is clearly identified rather than presented as completed work.
+
 ---
 
 # 🚀 About Me  
